@@ -21,7 +21,7 @@ function draw()
  strokeWeight(13);
  stroke(0);
  
- if (mousePressed){
+ if (mouseIsPressed){
     line(pmouseX,pmouseY,mouseX,mouseY);
  }
 }
